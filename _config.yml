@@ -3,7 +3,7 @@ title: GADADHARA
 description: "HOME INTERIOR DESIGN SOLUTIONS"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: svg/min/logo1.svg
 
 # Hero
 hero: 
@@ -33,7 +33,7 @@ testimonials:
 map:
     zoom: 17
     address: hyderabad,pragathi nagar,india.
-    address_details: svg/min/logo.svg
+    address_details: svg/min/logo1.svg
 
 # Social settings
 facebook: http://facebook.com
