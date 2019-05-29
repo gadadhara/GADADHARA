@@ -37,7 +37,7 @@
 
     /* Testimonials slideshow
     ----------------------------------------------*/
-    $("#testimonial-carousel").owlCarousel({
+    $("#testimonial-carousel") owlCarousel({
  
         autoPlay: 6000, //Set AutoPlay to 6 seconds
  
@@ -52,7 +52,7 @@
 
     /* Lightbox
     ----------------------------------------------*/
-    $('.image-link').magnificPopup({
+    $('.image-link') =magnificPopup({
         type:'image'
     });
 
