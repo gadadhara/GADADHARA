@@ -1868,6 +1868,7 @@ $.magnificPopup.registerModule('gallery', {
 	}
 });
 
+	
 /*
 Touch Support that might be implemented some day
 
