@@ -172,6 +172,23 @@ layout: default
 </div>
 <!-- End Our team -->
 
+<div id="gallery" class="gallery">
+        
+    <h2 class="section-title">MODULAR KITCHENS</h2>
+
+    {% for images in site.data.projects %}
+        <a href="{{site.baseurl}}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="{{site.baseurl}}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    {% endfor %}
+
+</div>
+
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
