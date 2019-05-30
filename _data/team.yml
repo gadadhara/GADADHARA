@@ -1,14 +1,29 @@
-- name: ajay kumar veera
+- name: Ajay Kumar Veera
   image: team.jpg
   email: ajaykumarveera55@gmail.com
   phone: 9391053043
 
-- name: sri ram
+- name: Sri Ram Sunkara
   image: team.jpg
-  email: sriram@gmail.com
-  phone: 9999999999
+  email: ajaykumarveera55@gmail.com
+  phone: 9391053043
 
-- name: SHESHU
+- name: Siva Prasad Chegondi
   image: team.jpg
-  email: sriram@gmail.com
-  phone: 9999999999
+  email: ajaykumarveera55@gmail.com
+  phone: 9391053043
+  
+- name: Vishnu Prasad Chegondi
+  image: team.jpg
+  email: ajaykumarveera55@gmail.com
+  phone: 9391053043
+  
+- name: Vasanth Kumar Veera
+  image: team.jpg
+  email: vasanthveeravfx@gmail.com
+  phone: 9700380381
+  
+- name: Durga Prasad Namala
+  image: team.jpg
+  email: ajaykumarveera55@gmail.com
+  phone: 9391053043
