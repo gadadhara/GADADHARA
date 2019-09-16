@@ -1,6 +1,6 @@
 # Site settings
 title: GADADHARA
-description: "HOME INTERIOR DESIGN SOLUTIONS"
+description: "HOME INNOVATIONS OPC PRIVATE LIMITED"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo1.svg
@@ -10,7 +10,7 @@ hero:
     hero_img: hero1.jpg
     
     hero_title: GADADHARA
-    hero_description: HOME INTERIOR DESIGN SOLUTIONS
+    hero_description: HOME INNOVATIONS OPC PRIVATE LIMITED
 
 # Contact form
 api_token: # Enter API token here
@@ -19,7 +19,7 @@ api_token: # Enter API token here
 contact:
     phone: 9391 053 043
     emergency: 7981 985 906
-    email: ajaykumarveera55@gmail.com
+    email: ajaykumarveera@outlook.com
     address: hyderabad, pragathi nagar.
 # Opening hours
 monday_friday: 9:00 – 18:00
