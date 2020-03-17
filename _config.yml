@@ -2,7 +2,7 @@
 title: GADADHARA
 description: "HOME INNOVATIONS OPC PRIVATE LIMITED"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "gadadhara.com" # the name of your domain
 logo_url: svg/min/logo1.png
 
 # Hero
@@ -13,7 +13,7 @@ hero:
     hero_description: HOME INNOVATIONS OPC PRIVATE LIMITED
 
 # Contact form
-api_token: # Enter API token here
+api_token: "form_api_token" # Enter API token here
 
 # Contact info
 contact:
