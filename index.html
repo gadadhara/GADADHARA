@@ -41,8 +41,9 @@ layout: default
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style
 body {font-family: Arial, Helvetica, sans-serif;}
- <button class="open-button" onclick="openForm()">Open Form</button>   
- <div class="form-popup" id="myForm">
+ <button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class= "form-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
     <h1>Login</h1>
 
@@ -53,7 +54,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <button type="submit" class="btn">Login</button>
-    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 
