@@ -13,8 +13,7 @@ hero:
     hero_description: HOME INNOVATIONS OPC PRIVATE LIMITED
 
 # Contact form
-api_token:  # Enter API token here
-
+api_token: f773723c2c1db360b9aa8307680d2712
 # Contact info
 contact:
     phone: 9391 053 043
