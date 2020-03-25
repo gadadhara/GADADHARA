@@ -19,6 +19,7 @@ body {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px 0 30px 0;
+  width: 100%;
 } 
 
 /* style inputs and link buttons */
@@ -138,7 +139,12 @@ input:hover,
   z-index: 100;
 }
 
-
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
   .col {
@@ -151,15 +157,6 @@ input:hover,
     display: block;
     text-align: center;
   }
-  /* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.btn cancel:hover, .open-button:hover {
-  opacity: 1;
-}
 
 }
 </style>
@@ -220,8 +217,6 @@ function closeForm() {
 
 </body>
 </html>
-
-
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
