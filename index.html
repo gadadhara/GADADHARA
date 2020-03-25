@@ -1,6 +1,215 @@
 ---
 layout: default
 ---
+<html>
+<head>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+.btn{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin: 5px 0;
+  opacity: 1;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  
+  text-decoration: none; /* remove underline from anchors */
+}
+/* style inputs and link buttons */
+textarea
+{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 4;
+}
+
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 30px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* Two-column layout */
+.col1 {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 1px;
+  background-color: #880e0e;
+  border-radius: 8px 0px 0px 8px;
+  background-color: #0e8877;
+  
+}
+/* Two-column layout */
+.col2 {
+  float: right;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 1px;
+  background-color:#0e7188;
+  border-radius: 0px 8px 8px 0px;
+ 
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #2b741d;
+  color: #ffffff;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 200px;
+  z-index: 100;
+  border-radius: 8px 8px 8px 8px;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 16px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 100;
+}
+
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+ 
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+  /* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.btn cancel:hover, .open-button:hover {
+  opacity: 1;
+}
+
+}
+</style>
+</head>
+<body>
+
+<button class="open-button" onclick="openForm()">GET FREE QUOTE</button>
+<div class="form-popup" id="myForm">
+<div class="container">
+  <form action="https://getsimpleform.com/messages?form_api_token=f773723c2c1db360b9aa8307680d2712" method="post" class="form-container">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+    <div class="row">
+      <h2 style="text-align:center">MAKE AN APPOINTMENT</h2>
+     
+      <div class="col">
+      
+         <input type="text" name="NAME" placeholder="Name" required>
+        <input type="text" name="PHONE" placeholder="Phone" required>
+        
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          
+        </div>
+
+        <input type="text" name="EMAIL" placeholder="Email" required>
+        
+        <textarea name="comments" placeholder="Requirements" name="comments" required></textarea>
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+
+<div class="bottom-container">
+  <div class="row1">
+    <div class="col1">
+      <button type="submit" class="btn">BOOK FREE CONSULTATION</button>
+    </div>
+    <div class="col2">
+     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+
+
 
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
